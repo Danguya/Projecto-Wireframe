@@ -1,0 +1,68 @@
+/* style header */
+
+header{
+    background-color: var(--brand-colors-800);
+    height: 8.8rem;
+    width: 100%;
+    display: flex;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    margin-right: 32px;
+}
+header nav ul li{
+    margin-right: 32px;
+}
+header nav ul li:last-child{
+    margin-right: 0;
+}
+header nav .btn-primary {
+    padding: 0.9rem 3.4rem;
+}
+.menu-mobile{
+    display: none;
+}
+
+/* Style Section Hero */
+.s-hero{
+    padding: 7.2rem 0;
+    display: flex;
+}
+.s-hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s-hero .text {
+    max-width: 64rem;
+    width: 100%;
+}
+.s-hero .text h1 {
+    margin-bottom: 2rem;
+}
+.s-hero .text p {
+    margin-bottom: 5.6rem;
+    max-width: 48.8rem;
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: var(--gray-colors-300)
+}.s-hero .text .btn-primary {
+    padding: 1.7rem 3.7rem;
+}
+.s-hero .image {
+    max-width: 48.8rem;
+    width: 100%;
+    height: 49.6rem;
+    background-color: var(--gray-colors-800);
+    display: grid;
+    place-items: center;
+}
