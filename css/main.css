@@ -85,7 +85,7 @@ header nav .btn-primary {
     text-align: center;
 }
 .s-card-featured .title p {
-    margin-top: .8rem;
+    margin-top: 0.8rem;
 }
 .s-card-featured p {
     color: var(--white-colors-text);
@@ -114,7 +114,7 @@ header nav .btn-primary {
 }
 .s-card-featured .all-cards .card .info p{
     text-align: center;
-    margin-top: .8rem;
+    margin-top: 0.8rem;
     line-height: 150%;
 }
 .s-card-featured .all-cards .card.white{
@@ -125,4 +125,25 @@ header nav .btn-primary {
 }
 .s-card-featured .all-cards .card.white p{
     color: var(--gray-colors-300);
+}
+.s-card-featured .second-area{
+    margin-top: 11.2rem;
+}
+.s-card-featured .second-area .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
+.s-card-featured .second-area .all-images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.s-card-featured .second-area .all-images .image{
+    width: 176px;
+    height: 112px;
+    background-color: var(--gray-colors-300);
+    display: grid;
+    place-items: center;
 }
