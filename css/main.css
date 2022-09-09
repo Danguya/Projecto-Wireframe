@@ -1,10 +1,13 @@
 /* style header */
 
 header{
-    background-color: var(--brand-colors-800);
+    background-color: var(--white);
     height: 8.8rem;
     width: 100%;
     display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 header .container {
     display: flex;
@@ -36,6 +39,7 @@ header nav .btn-primary {
 .s-hero{
     padding: 7.2rem 0;
     display: flex;
+    margin-top: 8.8rem;
 }
 .s-hero .container{
     display: flex;
@@ -222,6 +226,10 @@ footer main nav .item ul li a {
     font-size: 1.4rem;
     line-height: 105%;
     color: var(--white-colors-text);
+    transition: color .3s;
+}
+footer main nav .item ul li a:hover {
+    color: var(--white);
 }
 footer main nav .item:last-child ul li a {
     display: flex;

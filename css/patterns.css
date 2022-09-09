@@ -22,7 +22,12 @@ h3{
     font-weight: 600;
     font-size: 1.6rem;
     letter-spacing: -0.01em;
-    color: var(--brand-colors-100)
+    color: var(--brand-colors-100);
+    transition: transform .3s;
+
+}
+.btn-primary:hover{
+    transform: scale(1.05);
 }
 .menu-item{
     background-color: var(--gray-colors-50);
@@ -32,5 +37,9 @@ h3{
     line-height: 105%;
     letter-spacing: -0.01em;
     color: var(--gray-colors-400);
-
+    transition: all .3s;
+}
+.menu-item:hover {
+    background-color: #acb4bf;
+    color: var(--white);
 }
